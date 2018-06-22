@@ -20,8 +20,7 @@ def find_the_cheese(food_array)
   cheese_types.each do |cheese|
     if food_array.include?(cheese)
       cheese
-    else
-      return nil
     end
   end
+  return nil
 end
